@@ -1,0 +1,42 @@
+/**
+ * @name Edit discord 1
+ * @version 0.0.1
+ * @description Discord custom 
+ * @author Alqui
+ * 
+ * @invite jJaMSH2BnF
+ */
+
+
+
+
+:root {
+  --primaryGradient1: var(--primary);
+  --primary: #008ae6;
+  --primaryGradient2: #00e68a;
+  --DangerColor: #dc3545;
+  --WarningColor: #ffc107;
+  --SuccesColor: #28a745;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+}
+.layout-2DM8Md:after {
+	content: "";
+	height: 3px;
+	width: 100%;
+	border-radius: 50px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background-color: transparent;
+	background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+	transform: translateX(110%);
+	transition: all .500s ease
+}
+.layout-2DM8Md:hover:after,.selected-aXhQR6 .layout-2DM8Md:after {
+	transform: translateX(0)
+}
